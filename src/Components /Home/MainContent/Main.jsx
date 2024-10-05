@@ -4,6 +4,7 @@ import download from "../../../assets/sounds/download.wav";
 import myResume from "../../../assets/resumes/khaled_Tahat_24_10.pdf";
 import myResume2 from "../../../assets/resumes/khaled_tahat_23_11.pdf";
 import myResume3 from "../../../assets/resumes/khaled tahat_12_8_2024.pdf";
+import myResume4 from "../../../assets/resumes/khaled tahat_5_10_2024.pdf";
 
 function Main() {
   let handleDownload = () => {
@@ -46,7 +47,7 @@ function Main() {
           with educational support, creating an environment of continuous
           learning and growth.
         </p>
-        <a href={myResume3} download="Khaled Tahat" onClick={handleDownload}>
+        <a href={myResume4} download="Khaled Tahat" onClick={handleDownload}>
           <button>Download Resume</button>
         </a>
       </section>
