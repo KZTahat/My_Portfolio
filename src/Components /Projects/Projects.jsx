@@ -3,6 +3,8 @@ import dashboard from "../../assets/my_projects/workshop_dashboard.png";
 import comics from "../../assets/my_projects/comics.png";
 import react_animation from "../../assets/my_projects/react_animation.png";
 import art_house from "../../assets/my_projects/art_house.png";
+import restaurant_chain from "../../assets/my_projects/restaurant_chain.png";
+import it_company from "../../assets/my_projects/it_company.png";
 
 function Projects() {
   let projects = [
@@ -12,6 +14,14 @@ function Projects() {
       description:
         "The Workshop Dashboard is a web application designed to provide an intuitive interface for managing user data, products, and transactions in a workshop environment. It serves as a centralized platform for administrators to perform CRUD operations seamlessly.",
       github_link: "https://github.com/KZTahat/workshop_dashboard",
+    },
+    {
+      project_name: "Restaurant Chain Manager",
+      project_image: restaurant_chain,
+      description:
+        "A React single page application to display, create, delete and update (CRUD ops) a chain of restaurants with a complete setup to a backend server APIs to handle data exchange as a bridge to mySQL DB.",
+      github_link: "https://github.com/KZTahat/Restaurant-Chain-InfoGraph-",
+      live_url: "https://restaurantchainkzt.netlify.app/",
     },
     {
       project_name: "Comics",
@@ -28,6 +38,14 @@ function Projects() {
         "A collection of stylish and customizable CSS3 animations and React components to enhance the visual appeal of your web applications. Whether you're building a dynamic website or a sleek web app.",
       github_link: "https://github.com/KZTahat/react_animation",
       live_url: "https://react-animation-tahat.netlify.app/",
+    },
+    {
+      project_name: "IT Company",
+      project_image: it_company,
+      description:
+        "An Angular single page application to show the projects, clients, services and an overall overview about an IT company where you can navigate through different views (Typescript and SCSS).",
+      github_link: "https://github.com/KZTahat/IT_company_angular",
+      live_url: "https://it-companykzt.netlify.app/",
     },
     {
       project_name: "Art House",

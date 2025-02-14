@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #dfdfdf;
+    background-color: var(--gray_color);
 }
 
 .technologies_view_container h2 {
@@ -48,6 +48,7 @@
     height: 130px;
     transition: 0.5s;
     cursor: pointer;
+    background-color: #dfdfdf;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6);
 }
 
@@ -62,14 +63,14 @@
     border-radius: 5px;
     transition: 0.5s;
     padding: 3px;
-    background-color: gray;
-    color: var(--background_color_two);
+    background-color: var(--background_color_two);
+    color: var(--background_color_one);
     opacity: 0;
     z-index: 0;
 }
 
 .technologies_content .image_box:hover span {
-    opacity: 0.8;
+    opacity: 0.95;
     z-index: 1;
     transform: translateY(-30px);
 }

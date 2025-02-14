@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--form_inputs_color);
+    background-color: var(--background_color_two);
     height: 6vh;
     width: 100%;
 }

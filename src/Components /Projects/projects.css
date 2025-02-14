@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #dfdfdf;
+    background-color: var(--gray_color);
 }
 
 .projects_view_container h2 {
@@ -39,7 +39,7 @@
 .projects_boxes {
     display: grid;
     grid-template-columns: 40% 40%;
-    grid-template-rows: 20em 20em;
+    grid-template-rows: 20em 20em 20em;
     gap: 1.5em;
     justify-content: center;
     width: fit-content;
@@ -62,7 +62,7 @@
 }
 
 .projects_boxes .one_project_box:hover {
-    background-color: #2e2e2e;
+    background-color: var(--background_color_two);
 }
 
 .projects_boxes .one_project_box img {
@@ -123,6 +123,7 @@
     font-weight: 100;
     letter-spacing: 0.02em;
     font-style: normal;
+    color: var(--background_color_two);
     line-height: 1.15em;
     opacity: 0.8;
     transition: 1s;
@@ -206,42 +207,6 @@
     color: var(--background_color_two);
 }
 
-/* @media (max-height: 605px) {
-    .projects_view_container {
-        height: 160vh;
-    }
-}
-
-@media (max-height: 525px) {
-    .projects_view_container {
-        height: 180vh;
-    }
-}
-
-@media (max-height: 470px) {
-    .projects_view_container {
-        height: 200vh;
-    }
-}
-
-@media (max-height: 420px) {
-    .projects_view_container {
-        height: 220vh;
-    }
-}
-
-@media (max-height: 380px) {
-    .projects_view_container {
-        height: 240vh;
-    }
-}
-
-@media (max-height: 350px) {
-    .projects_view_container {
-        height: 260vh;
-    }
-} */
-
 @media (max-width: 1061px) {
     .projects_boxes {
         grid-template-columns: 49% 49%;
@@ -250,62 +215,18 @@
 }
 
 @media (max-width: 880px) {
-    /* .projects_view_container {
-        height: 210vh;
-    } */
-
     .projects_view_container .projects_heading_paragraph {
         width: 80%;
     }
 
     .projects_boxes {
         grid-template-columns: 60%;
-        grid-template-rows: 20em 20em 20em 20em;
+        grid-template-rows: 20em 20em 20em 20em 20em 20em;
         gap: 1em;
     }
-
-    /* @media (max-height: 710px) {
-        .projects_view_container {
-            height: 220vh;
-        }
-    }
-
-    @media (max-height: 770px) {
-        .projects_view_container {
-            height: 240vh;
-        }
-    }
-
-    @media (max-height: 625px) {
-        .projects_view_container {
-            height: 260vh;
-        }
-    }
-
-    @media (max-height: 575px) {
-        .projects_view_container {
-            height: 280vh;
-        }
-    }
-
-    @media (max-height: 530px) {
-        .projects_view_container {
-            height: 310vh;
-        }
-    }
-
-    @media (max-height: 480px) {
-        .projects_view_container {
-            height: 330vh;
-        }
-    } */
 }
 
 @media (max-width: 730px) {
-    /* .projects_view_container {
-        height: 220vh;
-    } */
-
     .projects_view_container .projects_heading_paragraph {
         font-size: 1.2em;
         width: 80%;
@@ -313,8 +234,6 @@
 
     .projects_boxes {
         grid-template-columns: 80%;
-        grid-template-rows: 20em 20em 20em 20em;
-        gap: 1em;
     }
 }
 
@@ -326,23 +245,17 @@
 
     .projects_boxes {
         grid-template-columns: 100%;
-        grid-template-rows: 20em 20em 20em 20em;
-        gap: 1em;
     }
 }
 
 @media (max-width: 480px) {
-    /* .projects_view_container {
-        height: 250vh;
-    } */
-
     .projects_view_container .projects_heading_paragraph {
         font-size: 1em;
         width: 100%;
     }
 
     .projects_boxes {
-        grid-template-rows: 25em 25em 25em 25em;
+        grid-template-rows: 25em 25em 25em 25em 25em 25em;
         gap: 1em;
     }
 
@@ -378,28 +291,4 @@
         font-size: 1.3em;
         padding: 6px;
     }
-
-    /* @media (max-height: 720px) {
-        .projects_view_container {
-            height: 270vh;
-        }
-    }
-
-    @media (max-height: 670px) {
-        .projects_view_container {
-            height: 300vh;
-        }
-    }
-
-    @media (max-height: 595px) {
-        .projects_view_container {
-            height: 330vh;
-        }
-    }
-
-    @media (max-height: 545px) {
-        .projects_view_container {
-            height: 360vh;
-        }
-    } */
 }

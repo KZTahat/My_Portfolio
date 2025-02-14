@@ -9,13 +9,13 @@
 .home_footer a {
     position: relative;
     text-decoration: none;
-    color: var(--background_color_two);
+    color: black;
+    background-color: white;
     border: 0.5px solid var(--background_color_one);
     border-radius: 4px;
     padding: 0.2em;
     margin: 0 0.5em 0 0;
     font-size: 1em;
-    background: #ffffff1a;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     transition: 0.5s;

@@ -3,6 +3,10 @@
     top: 3em;
     right: 3em;
     z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2em;
 }
 
 .small_screens_list {
@@ -25,6 +29,10 @@
 .small_screens_list:hover {
     color: var(--background_color_one);
     border: 1px solid var(--background_color_one);
+    background-color: var(--background_color_two);
+}
+
+#dark_mode_button {
     background-color: var(--background_color_two);
 }
 

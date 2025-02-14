@@ -11,6 +11,7 @@
 
 .home_text_area .home_greetings {
     margin: 0 0 0.3em 0;
+    color: var(--background_color_two);
 }
 
 .home_text_area .home_greetings span {
@@ -22,20 +23,22 @@
 .home_text_area h1 {
     font-size: 1.8em;
     margin: 0 0 0.2em 0;
+    color: var(--background_color_two);
     font-weight: 600;
 }
 
 .home_text_area .job_title {
     opacity: 0.7;
     margin: 0 0 1.3em 0;
+    color: var(--background_color_two);
     font-size: 1.05em;
 }
 
 .home_text_area p {
-    color: var(--background_color_two);
     opacity: 0.9;
     text-align: start;
     line-height: 1.2em;
+    color: var(--background_color_two);
     margin: 0 0 1.5em 0;
 }
 

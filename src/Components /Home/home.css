@@ -35,7 +35,6 @@
     align-items: start;
     flex-direction: column;
     padding: 3em;
-    transition: 0.5s;
     background-color: var(--background_color_one);
 }
 

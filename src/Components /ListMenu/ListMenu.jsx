@@ -1,11 +1,13 @@
 import { useState } from "react";
-import "./listMenu.css";
 import DropdownMenu from "./DropdownMenu/DropdownMenu.jsx";
 import { Howl } from "howler";
 import plastic_click from "../../assets/sounds/plastic_click.wav";
+import { useDarkMode } from "../../Context.api/DarkMode.jsx";
+import "./listMenu.css";
 
 function ListMenu() {
   let [showMenuItems, setShowMenuItems] = useState(false);
+  const { darkMode, switchThemMode } = useDarkMode();
 
   let iconsArray = [
     {
@@ -49,14 +51,25 @@ function ListMenu() {
 
   return (
     <>
-      {/* Hidden section for screens less than 1000px */}
       <section className="menu_list_container" id="list_menu">
+        <button
+          id="dark_mode_button"
+          className="small_screens_list"
+          onClick={switchThemMode}
+        >
+          {darkMode ? (
+            <i className="ri-sun-line"></i>
+          ) : (
+            <i className="ri-moon-line"></i>
+          )}
+        </button>
         <button
           className={`small_screens_list menu_items_clicked_${showMenuItems}`}
           onClick={handleListOpen}
         >
           <i className="ri-list-check"></i>
         </button>
+
         <DropdownMenu
           iconsArray={iconsArray}
           showMenuItems={showMenuItems}

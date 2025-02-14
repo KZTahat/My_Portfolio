@@ -54,7 +54,8 @@
     padding: 0 2em 0 2em;
     background-color: #ededed;
     border-radius: 4px;
-    transition: 0.8s;
+    background-color: #dfdfdf;
+
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -79,6 +80,7 @@
 }
 
 .servicers_boxes .one_service_box p {
+    color: #000;
     text-align: center;
     font-size: 1.1em;
 }

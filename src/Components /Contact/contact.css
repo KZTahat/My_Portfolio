@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--background_color_two);
+    background-color: var(--background_color_one);
 }
 
 .contact_content {
@@ -15,7 +15,7 @@
     align-items: center;
     flex-direction: column;
     width: 90%;
-    height: 90%;
+    height: 90%; 
     padding: 2em;
 }
 
@@ -39,7 +39,7 @@
 
 .contact_content p {
     font-size: 1.3em;
-    color: var(--background_color_one);
+    color: var(--background_color_two);
     height: 3em;
     text-align: center;
     margin-bottom: 0.5em;
@@ -59,16 +59,21 @@
 
 .contact_content input {
     font-size: 1.1em;
-    background-color: var(--form_inputs_color);
-    color: var(--background_color_one);
+    background-color: var(--gray_color);
+    color: var(--background_color_two);
     border: none;
     padding-left: 0.4em;
-    transition: 1s;
+    transition: 0.5s;
     border-radius: 3px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .contact_content input:focus {
     background-color: var(--headings_colors);
+}
+
+.contact_content input::placeholder {
+    color: var(--background_color_two);
 }
 
 .contact_content input:focus::placeholder {
@@ -79,8 +84,8 @@
     grid-column: span 2;
     display: block;
     font-size: 1.2em;
-    background-color: var(--form_inputs_color);
-    color: var(--background_color_one);
+    background-color: var(--gray_color);
+    color: var(--background_color_two);
     border: none;
     padding: 0.4em;
     resize: none;
@@ -90,6 +95,10 @@
 
 .contact_content textarea:focus {
     background-color: var(--headings_colors);
+}
+
+.contact_content textarea::placeholder {
+    color: var(--background_color_two);
 }
 
 .contact_content textarea:focus::placeholder {
