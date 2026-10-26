@@ -1,7 +1,7 @@
 import "./main.css";
 import { Howl } from "howler";
 import download from "../../../assets/sounds/download.wav";
-import myResume from "../../../assets/khaled_tahat_14_2.pdf";
+import myResume from "../../../assets/resumes/khaled_tahat_26_10_2026.pdf";
 
 function Main() {
   let handleDownload = () => {
